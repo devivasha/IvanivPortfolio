@@ -2,6 +2,16 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
+[comment]: <> (font-family: 'Inconsolata', monospace;)
+
+[comment]: <> (font-family: 'Long Cang', cursive;)
+
+[comment]: <> (font-family: 'Roboto', sans-serif;)
+
+[comment]: <> (font-family: 'Karla', sans-serif;)
+
+[comment]: <> (font-family: 'Indie Flower', cursive;)
+
 First, run the development server:
 
 ```bash

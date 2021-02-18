@@ -1,0 +1,155 @@
+.container {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.container .card {
+    position: relative;
+    max-width: 300px;
+    height: 200px;
+    background: #fff;
+    margin: 0px 10px;
+    padding: 0px 15px;
+    display: flex;
+    border-radius: 10px;
+    flex-direction: column;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.5);
+    transition: 0.3s ease-in-out;
+}
+.container .card:hover {
+  height: 360px;
+}
+.container .card .imgBx {
+    position: relative;
+    width: 331px;
+    height: 200px;
+    background: #e07768;
+    border-radius: 10px;
+    left: -16px;
+    z-index: 1;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+}
+.container .card .imgBxF {
+    position: relative;
+    width: 331px;
+    height: 200px;
+    background: #6eadd4;
+    border-radius: 10px;
+    left: -16px;
+    z-index: 1;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+}
+.container .card .imgBxT {
+    position: relative;
+    width: 331px;
+    height: 200px;
+    background: rgba(25, 84, 123, 1);
+    border-radius: 10px;
+    left: -16px;
+    z-index: 1;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+}
+.container .card .imgBxG {
+    position: relative;
+    width: 331px;
+    height: 200px;
+    background: #4aada9;
+    border-radius: 10px;
+    left: -16px;
+    z-index: 1;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+}
+.container .card .imgBxM {
+    position: relative;
+    width: 331px;
+    height: 200px;
+    background: rgba(255, 216, 155, 1);
+    border-radius: 10px;
+    left: -16px;
+    z-index: 1;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+}
+.container .card .imgBxP {
+    position: relative;
+    width: 331px;
+    height: 200px;
+    background: rgba(25, 84, 123, 1);
+    border-radius: 10px;
+    left: -16px;
+    z-index: 1;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+}
+.container .card .imgBxGP {
+    position: relative;
+    width: 331px;
+    height: 200px;
+    background: rgb(126,41,124);
+    border-radius: 10px;
+    left: -16px;
+    z-index: 1;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+}
+.container .card .content {
+    position: relative;
+    margin-top: -140px;
+    padding: 10px 15px;
+    text-align: center;
+    color: #111;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+}
+.container .card:hover .content {
+    visibility: visible;
+    opacity: 1;
+    margin-top: 10px;
+    transition-delay: 0.3s;
+}
+.href {
+    cursor: pointer;
+    text-decoration: none;
+    color: #e07768;
+    font-size: 20px;
+    font-weight: bold;
+}
+.hrefF {
+    cursor: pointer;
+    text-decoration: none;
+    color: #6eadd4;
+    font-size: 20px;
+    font-weight: bold;
+}
+.hrefT {
+    cursor: pointer;
+    text-decoration: none;
+    color: rgba(25, 84, 123, 1);
+    font-size: 20px;
+    font-weight: bold;
+}
+.hrefG {
+    cursor: pointer;
+    text-decoration: none;
+    color: #4aada9;
+    font-size: 20px;
+    font-weight: bold;
+}
+.hrefM {
+    cursor: pointer;
+    text-decoration: none;
+    color: rgba(255, 216, 155, 1);
+    font-size: 20px;
+    font-weight: bold;
+}
+.hrefGP {
+    cursor: pointer;
+    text-decoration: none;
+    color: rgb(126,41,124);
+    font-size: 20px;
+    font-weight: bold;
+}
+
