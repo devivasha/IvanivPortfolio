@@ -1,6 +1,5 @@
 import '@material-ui/core';
 import MainLayout from "../../components/MainLayout/MainLayout";
-import Grid from "@material-ui/core/Grid";
 import ContactsList from '../../components/ContactsList/ContactsList'
 
 

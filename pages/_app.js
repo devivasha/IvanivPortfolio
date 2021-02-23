@@ -1,6 +1,5 @@
 import '../style.css';
 import '@material-ui/core';
-import Head from 'next/head'
 
 export default function Application({Component, pageProps}){
     return (

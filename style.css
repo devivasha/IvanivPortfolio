@@ -15,6 +15,7 @@
     width: 100%;
     content: '';
 }
+
 @media (min-width: 650px){
     .gradient::after {
         background-image: linear-gradient(to top, rgba(255, 216, 155, 0.5), rgba(25, 84, 123, 1));
@@ -71,7 +72,6 @@
     width: 100%;
     height: auto;
     z-index: 500;
-    margin-bottom: 35px;
 }
 .quotation {
     color: rgba(25, 84, 123, 1);
@@ -89,6 +89,15 @@
 .containerContacts {
     display: inline;
 }
+
+.containerProjects {
+    width:100%;
+    background: transparent;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 2vw;
+}
+
 .center {
     height: auto;
     padding-bottom: 160px;
@@ -124,4 +133,13 @@
         padding-bottom: 0;
         margin: 0% 10%;
     }
+    .containerProjects {
+        width:100%;
+        height: 800px;
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 2vw;
+    }
+
 }
