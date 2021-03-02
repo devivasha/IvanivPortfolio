@@ -119,6 +119,10 @@
     .containerFooter {
         margin-bottom: 45px;
     }
+    .containerFooterAbout {
+        margin-top: -10px;
+        margin-left: 200px;
+    }
     .quotation {
         font-size: 40px;
     }
