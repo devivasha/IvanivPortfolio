@@ -1,6 +1,6 @@
 .containerAbout {
-    height: 620px;
-    margin-top: 20px;
+    height: auto;
+    margin-top: 40px;
     width: 90%;
     border: 2px solid white;
     border-bottom-left-radius: 80px;
@@ -11,11 +11,12 @@
     border: 2px solid rgba(255,216,155,1);
 }
 .card {
+    margin-top: 30px;
+    margin-bottom: 200px;
     position: relative;
     cursor: pointer;
-    margin: -35% 50%;
-    width: 36rem;
-    height: 20rem;
+    width: auto;
+    height: 15rem;
     perspective: 150rem;
 }
 .front, .back {
@@ -67,17 +68,17 @@
 }
 .text {
     font-family:Monaco;
-    font-size: 15px;
-    letter-spacing: 2px;
+    font-size: 12px;
+    letter-spacing: 1px;
     color: white;
-    margin:17% 10%;
+    margin:20% 10%;
 }
 .text2 {
     font-family:Monaco;
-    font-size: 15px;
-    letter-spacing: 2px;
+    font-size: 12px;
+    letter-spacing: 1px;
     color: white;
-    margin:10% 13%;
+    margin:5% 13%;
 }
 .front .lineNumbers > div {
     padding: 5px 0;
@@ -97,6 +98,11 @@
 .code {
     color: white;
     letter-spacing: 2px;
+}
+.code2:after {
+    color: white;
+    letter-spacing: 2px;
+    content: '\007B';
 }
 .operator {
     color: cyan;
@@ -132,9 +138,8 @@
 .values{
     position: relative;
     cursor: pointer;
-    margin: 5% 8%;
-    width: 25rem;
-    height: 30rem;
+    width: auto;
+    height: 25rem;
     perspective: 150rem;
 }
 .frontV, .backV {
@@ -146,8 +151,8 @@
     transition: transform .6s linear;
 }
 .backV {
-    border-top-right-radius: 100px;
-    border-bottom-left-radius: 100px;
+    border-top-right-radius: 80px;
+    border-bottom-left-radius: 80px;
     transform: perspective(600px) rotateY(180deg);
 }
 .frontV {
@@ -171,14 +176,55 @@
     font-family: 'Karla', sans-serif;
 }
 .container {
-    width: 500px;
+    width: 300px;
     position: absolute;
-    top:10px;
-    right: 200px;
+    bottom:100px;
+    left: 35px;
 }
 .header {
-    color: rgba(25, 84, 123, 1);
+    color: white;
     font-family: 'Long Cang', cursive;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: bold;
+}
+@media (min-width: 650px){
+    .containerAbout {
+        height: 620px;
+    }
+    .values{
+        margin: 5% 8%;
+        width: 25rem;
+        height: 30rem;
+    }
+    .backV {
+        border-top-right-radius: 100px;
+        border-bottom-left-radius: 100px;
+    }
+    .card {
+        margin: -35% 50%;
+        width: 36rem;
+        height: 20rem;
+    }
+    .text {
+        font-size: 15px;
+        letter-spacing: 2px;
+        margin:17% 10%;
+    }
+    .text2 {
+        font-size: 15px;
+        letter-spacing: 2px;
+        margin:10% 13%;
+    }
+    .container {
+        width: 500px;
+        position: absolute;
+        top:10px;
+        left: 700px;
+    }
+    .header {
+        color: rgba(25, 84, 123, 1);
+        font-family: 'Long Cang', cursive;
+        font-size: 30px;
+        font-weight: bold;
+    }
 }

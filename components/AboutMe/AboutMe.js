@@ -175,7 +175,7 @@ const AboutMe =()=> {
                         <span className={styles.code}>,</span>
                         <span className={styles.tab}></span>
                         <span className={styles.function}>()=></span>
-                        <span className={styles.code}>[</span>
+                        <span className={styles.code2}></span>
                     </div>
                     <div style={{padding:"10px"}}>
                         <span className={styles.tab}></span>
@@ -219,7 +219,7 @@ const AboutMe =()=> {
                          <span className={styles.tab}></span>
                          <span className={styles.boolean}>=</span>
                          <span className={styles.tab}></span>
-                         <span className={styles.tab}>[</span>
+                         <span className={styles.code2}></span>
                      </div>
                      <div style={{paddingBottom:"5px"}}>
                          <span className={styles.tab}></span>
@@ -247,7 +247,7 @@ const AboutMe =()=> {
                          <span className={styles.tab}></span>
                          <span className={styles.property}>contacts</span>
                          <span className={styles.boolean}>:</span>
-                         <span className={styles.tab}>[</span>
+                         <span className={styles.code2}></span>
                      </div>
                      <div style={{paddingBottom:"5px"}}>
                          <span className={styles.tab}></span>

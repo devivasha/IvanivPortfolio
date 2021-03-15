@@ -1,4 +1,3 @@
-import Grid from '@material-ui/core/Grid';
 import ResumeItem from '../../components/Resume/ResumeItem';
 import MainLayout from "../../components/MainLayout/MainLayout";
 const Resume=()=>{
@@ -10,7 +9,7 @@ const Resume=()=>{
                         <div className="center">
                             <ResumeItem/>
                         </div>
-                        <div className="containerFooter">
+                        <div className="containerFooter move">
                             <p className="quotation">"Your attitude, not your aptitude, will determine your altitude."</p>
                             <p className="quotation2">Zig Ziglar</p>
                         </div>
