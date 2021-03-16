@@ -6,11 +6,11 @@ import PersonPinCircleIcon from '@material-ui/icons/PersonPinCircle';
 import ReceiptIcon from '@material-ui/icons/Receipt';
 import BarChartIcon from '@material-ui/icons/BarChart';
 import { useRouter } from "next/router";
-import useWindowDimensions from '../Helper/index';
+import useWindowDimensions from '../../components/Helper/index'
 const MainLayout=({children})=>{
     const router = useRouter();
-    const { height, width } = useWindowDimensions();
-    const breakpoint = 650;
+    const { height, width } = useWindowDimensions()
+    const breakpoint = 650
 
     return (<div className={styles.wrapper}>
         <nav className={styles.container}>
