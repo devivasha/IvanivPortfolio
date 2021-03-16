@@ -1,1 +1,0 @@
-web:node next start -p 3000
