@@ -5,7 +5,7 @@
     background-size: cover;
     background-repeat: repeat;
     background-attachment:scroll;
-    overflow-y: auto;
+    overflow-x: hidden;
 }
 .gradient::after {
     display: block;
@@ -111,10 +111,14 @@
     font-size: 25px;
     font-weight: bold;
     color:#fff;
-    margin-right:5%;
+    margin-right: 5%;
+    margin-left: 15px;
 }
 .containerContacts {
     display: inline;
+    width: 80vw;
+    height: 80vh;
+    margin-top: 60px;
 }
 
 .containerProjects {
@@ -128,6 +132,8 @@
 .center {
     height: auto;
     padding-bottom: 160px;
+    display: flex;
+    justify-content: space-between;
 }
 @media (min-width: 650px){
     .gradient{
@@ -143,9 +149,9 @@
         color: #ffffff;
         margin: -10% 25%;
     }
-    .containerFooter {
-        margin-bottom: 45px;
-    }
+    /*.containerFooter {*/
+    /*    margin-bottom: 45px;*/
+    /*}*/
     .containerFooterAbout {
         margin-top: -10px;
         margin-left: 200px;
@@ -159,10 +165,11 @@
     }
     .containerContacts {
         display: flex;
+        justify-content: space-between;
     }
     .center {
         padding-bottom: 0;
-        margin: 0% 10%;
+        margin: 0% 5%;
     }
     .containerProjects {
         width:100%;
@@ -177,11 +184,10 @@
     }
     .imgSmall{
         display: block;
-        width: 150px;
-        height: 150px;
+        width: 180px;
+        height: 60px;
         position: absolute;
-        top: 0px;
+        top: 15px;
         left: 50px;
     }
-
 }

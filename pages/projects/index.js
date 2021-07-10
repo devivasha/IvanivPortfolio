@@ -10,9 +10,10 @@ const Projects=()=>{
                         <div className="center">
                             <ProjectsList/>
                         </div>
-                        <div className="containerFooter">
-                            <p className="quotation">“Happiness is the real sense of fulfillment that comes from hard work.”</p>
-                            <p className="quotation" style={{color:"#fff"}}>Joseph Barbara</p>
+                        <div style={{width: "85%", margin: "0 auto"}}>
+                            <p className="quotation">“Happiness is the real sense of fulfillment that comes from hard work.”
+                                <span className="quotation2" style={{color:"#fff"}}>Joseph Barbara</span>
+                            </p>
                         </div>
                     </MainLayout>
                 </div>

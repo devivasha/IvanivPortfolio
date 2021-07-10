@@ -11,8 +11,10 @@ export default function Application({Component, pageProps}){
                 font-family: 'Karla', sans-serif;
                 font-max-size: 14px;
                 margin: 0;
-                padding: 0;}`
+                padding: 0;
+                }`
             }</style>
+
         </>
     );
 }

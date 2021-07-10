@@ -9,9 +9,10 @@ const Resume=()=>{
                         <div className="center">
                             <ResumeItem/>
                         </div>
-                        <div className="containerFooter move">
-                            <p className="quotation">"Your attitude, not your aptitude, will determine your altitude."</p>
-                            <p className="quotation2">Zig Ziglar</p>
+                        <div style={{width: "70%", margin: "165px auto"}}>
+                            <p className="quotation">"Your attitude, not your aptitude, will determine your altitude."
+                                <span className="quotation2">Zig Ziglar</span>
+                            </p>
                         </div>
                     </MainLayout>
                 </div>

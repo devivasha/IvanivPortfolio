@@ -1,11 +1,10 @@
-
 import styles from "../AboutMe/AboutMe.module.css";
-const AboutMe =()=> {
 
+const AboutMe =()=> {
     return (<div className={styles.containerAbout}>
-        <div className={styles.container}>
-            <p className={styles.header}>“My success down to my attitude, approach and the way I treat to my clients and colleagues.”</p>
-        </div>
+        {/*<div className={styles.container}>*/}
+        {/*    <p className={styles.header}>“My success down to my attitude, approach and the way I treat to my clients and colleagues.”</p>*/}
+        {/*</div>*/}
        <div className={styles.values}>
            <div className={styles.frontV} style={{display:"flex"}}>
                <table className={styles.table}>
@@ -238,7 +237,17 @@ const AboutMe =()=> {
                          <span className={styles.property}>title</span>
                          <span className={styles.boolean}>:</span>
                          <span className={styles.tab}></span>
-                         <span className={styles.string}>'Junior Front-End Developer'</span>
+                         <span className={styles.string}>'Front-End Developer'</span>
+                         <span className={styles.code}>,</span>
+                     </div>
+                     <div style={{paddingBottom:"5px"}}>
+                         <span className={styles.tab}></span>
+                         <span className={styles.tab}></span>
+                         <span className={styles.tab}></span>
+                         <span className={styles.property}>company</span>
+                         <span className={styles.boolean}>:</span>
+                         <span className={styles.tab}></span>
+                         <span className={styles.string}>'Customertimes'</span>
                          <span className={styles.code}>,</span>
                      </div>
                      <div style={{paddingBottom:"5px"}}>

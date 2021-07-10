@@ -10,6 +10,18 @@
     justify-content: flex-end;
     align-items: center;
 }
+.footerTest {
+    position: absolute;
+    border: 2px solid forestgreen;
+    height: 70px;
+    width: 100%;
+    margin-bottom: -20px;
+    margin-top: 20px;
+}
+
+.imgSmall {
+   width: 100%;
+}
 .item {
     color: #ffffff;
     text-decoration: none;
@@ -25,7 +37,6 @@
     border-radius: 5px;
     color: #ffd89b;
 }
-
 .active {
     text-decoration: none;
     cursor: pointer;

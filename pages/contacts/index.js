@@ -12,10 +12,6 @@ const Contacts=()=>{
                         <div className="center">
                             <ContactsList/>
                         </div>
-                        <div className="containerFooter">
-                            <p className="quotation">“Every mind needs friendly contact with other minds, for food of expansion and growth.”</p>
-                            <p className="quotation2">Napoleon Hill</p>
-                        </div>
                     </MainLayout>
                 </div>
             </div>
