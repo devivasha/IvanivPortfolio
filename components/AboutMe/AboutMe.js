@@ -279,7 +279,7 @@ const AboutMe =()=> {
                          <span className={styles.property}>website</span>
                          <span className={styles.boolean}>:</span>
                          <span className={styles.tab}></span>
-                         <span className={styles.string}>'site_name_here'</span>
+                         <span className={styles.string}>'https://ivanivn.vercel.app'</span>
                          <span className={styles.code}>,</span>
                      </div>
                      <div style={{paddingBottom:"5px"}}>
