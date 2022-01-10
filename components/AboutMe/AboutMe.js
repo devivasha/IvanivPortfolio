@@ -247,7 +247,7 @@ const AboutMe =()=> {
                          <span className={styles.property}>company</span>
                          <span className={styles.boolean}>:</span>
                          <span className={styles.tab}></span>
-                         <span className={styles.string}>'Customertimes'</span>
+                         <span className={styles.string}>'NDA'</span>
                          <span className={styles.code}>,</span>
                      </div>
                      <div style={{paddingBottom:"5px"}}>
